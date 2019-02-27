@@ -16,6 +16,7 @@
 		796AF245221B496A0009B27F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796AF244221B496A0009B27F /* Assets.xcassets */; };
 		796AF248221B496A0009B27F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796AF246221B496A0009B27F /* LaunchScreen.storyboard */; };
 		796AF24B221B496A0009B27F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 796AF24A221B496A0009B27F /* main.m */; };
+		796AF254222645F30009B27F /* maddden.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 796AF253222645F30009B27F /* maddden.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		796AF247221B496A0009B27F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		796AF249221B496A0009B27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		796AF24A221B496A0009B27F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		796AF253222645F30009B27F /* maddden.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = maddden.atlas; path = ../../maddden.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		796AF233221B49690009B27F /* tetris */ = {
 			isa = PBXGroup;
 			children = (
+				796AF253222645F30009B27F /* maddden.atlas */,
 				796AF234221B49690009B27F /* AppDelegate.h */,
 				796AF235221B49690009B27F /* AppDelegate.m */,
 				796AF237221B49690009B27F /* GameScene.sks */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				796AF243221B49690009B27F /* Main.storyboard in Resources */,
+				796AF254222645F30009B27F /* maddden.atlas in Resources */,
 				796AF238221B49690009B27F /* GameScene.sks in Resources */,
 				796AF245221B496A0009B27F /* Assets.xcassets in Resources */,
 				796AF248221B496A0009B27F /* LaunchScreen.storyboard in Resources */,
