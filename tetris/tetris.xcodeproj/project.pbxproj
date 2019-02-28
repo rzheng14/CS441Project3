@@ -16,7 +16,9 @@
 		796AF245221B496A0009B27F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796AF244221B496A0009B27F /* Assets.xcassets */; };
 		796AF248221B496A0009B27F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796AF246221B496A0009B27F /* LaunchScreen.storyboard */; };
 		796AF24B221B496A0009B27F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 796AF24A221B496A0009B27F /* main.m */; };
-		796AF254222645F30009B27F /* maddden.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 796AF253222645F30009B27F /* maddden.atlas */; };
+		796AF257222669460009B27F /* pmad1.png in Resources */ = {isa = PBXBuildFile; fileRef = 796AF256222669450009B27F /* pmad1.png */; };
+		796AF25922266DA20009B27F /* maddenMillions.png in Resources */ = {isa = PBXBuildFile; fileRef = 796AF25822266DA20009B27F /* maddenMillions.png */; };
+		796AF25B22266DAC0009B27F /* Copy of maddenMillions.png in Resources */ = {isa = PBXBuildFile; fileRef = 796AF25A22266DAC0009B27F /* Copy of maddenMillions.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +36,9 @@
 		796AF247221B496A0009B27F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		796AF249221B496A0009B27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		796AF24A221B496A0009B27F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		796AF253222645F30009B27F /* maddden.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = maddden.atlas; path = ../../maddden.atlas; sourceTree = "<group>"; };
+		796AF256222669450009B27F /* pmad1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pmad1.png; sourceTree = SOURCE_ROOT; };
+		796AF25822266DA20009B27F /* maddenMillions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maddenMillions.png; sourceTree = SOURCE_ROOT; };
+		796AF25A22266DAC0009B27F /* Copy of maddenMillions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Copy of maddenMillions.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +71,12 @@
 		796AF233221B49690009B27F /* tetris */ = {
 			isa = PBXGroup;
 			children = (
-				796AF253222645F30009B27F /* maddden.atlas */,
 				796AF234221B49690009B27F /* AppDelegate.h */,
 				796AF235221B49690009B27F /* AppDelegate.m */,
+				796AF25822266DA20009B27F /* maddenMillions.png */,
 				796AF237221B49690009B27F /* GameScene.sks */,
+				796AF256222669450009B27F /* pmad1.png */,
+				796AF25A22266DAC0009B27F /* Copy of maddenMillions.png */,
 				796AF239221B49690009B27F /* Actions.sks */,
 				796AF23B221B49690009B27F /* GameScene.h */,
 				796AF23C221B49690009B27F /* GameScene.m */,
@@ -143,10 +149,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				796AF243221B49690009B27F /* Main.storyboard in Resources */,
-				796AF254222645F30009B27F /* maddden.atlas in Resources */,
+				796AF257222669460009B27F /* pmad1.png in Resources */,
 				796AF238221B49690009B27F /* GameScene.sks in Resources */,
 				796AF245221B496A0009B27F /* Assets.xcassets in Resources */,
 				796AF248221B496A0009B27F /* LaunchScreen.storyboard in Resources */,
+				796AF25B22266DAC0009B27F /* Copy of maddenMillions.png in Resources */,
+				796AF25922266DA20009B27F /* maddenMillions.png in Resources */,
 				796AF23A221B49690009B27F /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
